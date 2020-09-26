@@ -56,7 +56,7 @@ is [HERE!](https://ultronele.netlify.com/)
 
 Just for a couple of commands, you will have your own LMS, here we go:
 
-> $ gatsby new my-ultronele https://github.com/runbytech/ultron-ele
+> $ gatsby new my-ultronele https://github.com/lwz7512/ultronele
 
 > $ cd my-ultronele
 
@@ -79,7 +79,9 @@ Looking for more guidance? Full documentation for UltronEle lives [on the websit
 Prerequisites: github account and netlify account required
 ```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/runbytech/ultron-ele)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lwz7512/ultronele)
+
+> NOTE: this deploy only use https://github.com/lwz7512/ultronele as content source
 
 
 ## Contribution is Welcome
