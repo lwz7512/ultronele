@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+
 import github from '../images/github56.png'
 import twitter from '../images/twitter56.png'
 

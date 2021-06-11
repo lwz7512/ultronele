@@ -7,7 +7,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Button from '../components/button'
+
 import ProfileSection from '../sections/profileSection'
 import LearningPathSection from '../sections/learnPathSection'
 import TestReptSection from '../sections/testReptSection'
@@ -70,7 +70,7 @@ class ProfilePageRC extends React.Component {
     }
 
     componentWillMount() {
-      const { location, data } = this.props
+      const { location, } = this.props
       const section = location.state?location.state.section:null
       if(section) this.changeSection(section)
       
@@ -84,7 +84,7 @@ class ProfilePageRC extends React.Component {
 
 
     render() {
-      const { location, data } = this.props
+      const { data } = this.props
       const { section } = this.state
       const pageClickHandler = () => {
         if(this.state.mobile) 

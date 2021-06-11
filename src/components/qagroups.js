@@ -40,7 +40,7 @@ export default class Qagroups extends Component {
     if(this.state.completed) return // only dispatch once
     
     // check completion by select count
-    if(ans.length == qaset.length) {
+    if(ans.length === qaset.length) {
       this.setState({completed: true})
       done()
     }
@@ -48,7 +48,7 @@ export default class Qagroups extends Component {
 
   render() {
 
-    const { qaset, done } = this.props
+    const { qaset, } = this.props
 
     return (
       <>

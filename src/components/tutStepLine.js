@@ -8,7 +8,7 @@
 
  import React from 'react';
  
- import { Link, graphql } from 'gatsby'
+ import { Link } from 'gatsby'
 
  import tstyle from '../style/timeline.module.css'
 

@@ -64,8 +64,6 @@
   color: #FFF;
   position: absolute;
   top: 80px;
-  left: 100px;
-  /* font-weight: 300; */
   padding: 20px;
 }
 
@@ -73,7 +71,7 @@
   color: #FFF;
   position: absolute;
   top: 200px;
-  left: 122px;
+  padding: 20px;
 }
 
 .post article .content {

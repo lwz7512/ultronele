@@ -8,7 +8,6 @@ import { Link } from 'gatsby'
 import Image from 'gatsby-image'
 import ReactSwipe from 'react-swipe'
 
-import Container from "./container"
 import btnStyles from '../style/button.module.css'
 import styles from '../style/gallery.module.css'
 import { reorderforCateHead } from '../utils/helper'

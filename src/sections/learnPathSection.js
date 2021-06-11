@@ -7,7 +7,7 @@
 import React, { Component } from 'react'
 import Konva from 'konva'
 
-import { getUser, getLearningTracks} from '../utils/cache'
+import { getLearningTracks} from '../utils/cache'
 
 import styles from '../style/profile.module.css'
 

@@ -6,7 +6,7 @@
  * refactoring to component in order to resolve mobile responsive bug
  * @2019/08/02
  */
-import React, { useState, useEffect }  from 'react'
+import React  from 'react'
 
 import { graphql } from 'gatsby'
 
@@ -15,7 +15,6 @@ import SEO from '../components/seo'
 import Gallery from '../components/gallery'
 import Tutorials, { TutorialList } from '../components/tutorials'
 import Swiper from '../components/swiper'
-import useMedia480 from '../hooks/useMedia480'
 
 class IndexPage extends React.Component { 
   

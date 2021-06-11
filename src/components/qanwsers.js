@@ -14,8 +14,6 @@ import React from 'react';
 import styles from '../style/qanwsers.module.css'
 import yesimg from '../images/yes_green.png'
 
-import { useMedia4804Comp } from '../hooks/useMedia480'
-
 /**
  * 
  * @param {*} s: sequence, q: question, 
@@ -128,8 +126,7 @@ export default class QAnwsers extends React.Component {
   }
 
   render() {
-    const { seq, qas, done, blind } = this.props
-    const mobile = useMedia4804Comp()
+    const { seq, qas, blind } = this.props
 
     return (
       <>

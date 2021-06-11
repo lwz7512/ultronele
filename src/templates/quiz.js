@@ -51,7 +51,7 @@ export default class QuizPage extends React.Component {
   }
 
   openQuiz = () => {
-    const { data, pageContext} = this.props
+    const { pageContext} = this.props
     const pageslug = pageContext.slug
     let user = getUser()
     if(user){
@@ -98,7 +98,7 @@ export default class QuizPage extends React.Component {
     if(saved) return // do not save repeatedly
     
     // only save once for each quiz by one user
-    const { data, pageContext} = this.props
+    const { data,} = this.props
     const { frontmatter:fm } = data.quiz
     const level = this.calculateLevel()
     const now = new Date()
@@ -160,7 +160,7 @@ export default class QuizPage extends React.Component {
 
 
   render() {
-    const { data, pageContext } = this.props
+    const { data, } = this.props
     const { frontmatter:fm } = data.quiz
     const { edges:tutorial } = data.sections
     // NOTE: save qaset to component level here 

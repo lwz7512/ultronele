@@ -14,7 +14,6 @@
  */
 import React from 'react'
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 
 import avatar from '../images/avatar.png'
 import styles from '../style/header.module.css'
@@ -107,7 +106,7 @@ export default class Header extends React.Component {
                   (m, i) => <ListLink 
                               to={m.url} 
                               key={i} 
-                              active={m.url==this.state.path}                              
+                              active={m.url===this.state.path}                              
                               >
                               {m.name}
                             </ListLink>

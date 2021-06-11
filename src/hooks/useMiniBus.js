@@ -2,7 +2,7 @@
  * a hook function to wrap minibus
  * @2019/05/24
  */
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import * as minibus from '../utils/minibus'
 
 

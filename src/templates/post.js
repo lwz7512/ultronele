@@ -5,7 +5,7 @@
  * @2019/04/15
  */
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Image from 'gatsby-image'
 
 import Layout from '../components/layout'
@@ -52,7 +52,6 @@ export default class PostPage extends React.Component {
   }
   
   componentDidMount() {
-    const {data, pageContext, location} = this.props
 
     if(!this.state.hasAnchors) return
     // add window scroll event listening
@@ -74,7 +73,7 @@ export default class PostPage extends React.Component {
 
   render() {
 
-    const {data, pageContext, location} = this.props
+    const {data} = this.props
     const fm = data.markdownRemark.frontmatter
     
     let anchors = data.markdownRemark.frontmatter.anchors

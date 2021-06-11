@@ -4,7 +4,7 @@
  * @2019/01/31, first create
  * @2019/03/04, use new index.md data from each category
  */
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link } from 'gatsby'
 import Image from 'gatsby-image'
 import { reorderforCateHead } from '../utils/helper'

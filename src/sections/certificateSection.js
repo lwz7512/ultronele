@@ -26,7 +26,6 @@ export default class CertificateSection extends React.Component {
   }
 
   componentWillMount() {
-    const { signiture } = this.props
     // console.log('signiture:', signiture)
     let user = getUser()
     if(!user) return //FIXME: null check in build mode @2019/04/24
